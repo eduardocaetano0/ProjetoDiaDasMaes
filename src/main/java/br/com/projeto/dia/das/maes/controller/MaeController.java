@@ -7,12 +7,12 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping
-public class Controller {
+public class MaeController {
 
     @GetMapping("/home")
-        public String home() {
-            return "Bem vindo ao projeto Dia das Mães nessa rota";
-        }
+    public String home() {
+        return "Bem vindo ao projeto Dia das Mães nessa rota";
     }
+}
 
 
